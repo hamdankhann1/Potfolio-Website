@@ -318,6 +318,8 @@ body{
 }
 .portfolio a:hover{
     transform: scale(1.2);
+    color: black;
+    background-color: #fff;
 }
 .iconinfo{
     display: flex;
