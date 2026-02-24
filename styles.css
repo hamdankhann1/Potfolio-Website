@@ -528,6 +528,8 @@ footer{
         align-items: center;
         justify-content: center;
     }
-
+    #comments:hover{
+        transform: scale(1);
+    }
 
 }
