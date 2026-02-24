@@ -313,6 +313,12 @@ body{
 .portfolio img:hover{
     transform: scale(1.1);
 }
+.portfolio a{
+    transition: all 1.2s;
+}
+.portfolio a:hover{
+    transform: scale(1.2);
+}
 .iconinfo{
     display: flex;
     align-items: center;
