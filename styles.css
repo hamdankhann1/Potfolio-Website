@@ -509,9 +509,9 @@ footer{
         width: fit-content;
     }
     .navbar ul li{
-        font-size: 2px;
-        padding: 2px;
-        margin: 2px;
+        font-size: 10px;
+        padding: 6px;
+        margin: 3px;
     }
     .navbar ul li a{
         text-align: center;
@@ -527,9 +527,14 @@ footer{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        height: 60px;
+        width: fit-content;
     }
     #comments:hover{
         transform: scale(1);
+    }
+    .navbar{
+        height: 60px;
     }
 
 }
