@@ -97,7 +97,11 @@ body{
     color: black;
     background-color: white;
 }
-
+.navbar ul li a:active{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+}
 #logo{
     flex-shrink: 1;
     position: absolute;
