@@ -9,47 +9,7 @@
         display: none;
     }
 }
-@media screen and (max-width:600px){
-    .img{
-        display: none;
-    }
-    #pro1{
-        height: 200px;
-    }
-    .cont-title h2{
-        font-size: 18px;
-    }
-    #name, #email, #number{
-        width: 200px;
-    }
-    .text{
-        width: 100%;
-    }
-    .links{
-        padding: 0;
-        border-radius: 0;
-    }
-    .navbar ul li{
-        font-size: 2px;
-        padding: 0px;
-        margin: 0px;
-        
-    }
-    .navbar ul li a{
-        padding: 0;
-        display: inline-block;
-    }
-    .navbar ul{
-        width: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-    }
 
-
-}
 body{
     background: black;
     background-size: cover;
@@ -526,4 +486,48 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width:600px){
+    .img{
+        display: none;
+    }
+    #pro1{
+        height: 200px;
+    }
+    .cont-title h2{
+        font-size: 18px;
+    }
+    #name, #email, #number{
+        width: 200px;
+    }
+    .text{
+        width: 100%;
+    }
+    .links{
+        padding: 2px;
+        border-radius: 30px;
+        width: fit-content;
+    }
+    .navbar ul li{
+        font-size: 2px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .navbar ul li a{
+        text-align: center;
+        height: 20px;
+        font-size: 8px;
+        font-weight: 400;
+        margin: 2px;
+        padding: 2px;
+    }
+    .navbar ul{
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 }
