@@ -37,6 +37,7 @@
     }
     .navbar ul li a{
         padding: 0;
+        display: inline-block;
     }
     .navbar ul{
         width: 100px;
