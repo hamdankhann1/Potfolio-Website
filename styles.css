@@ -290,11 +290,8 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    transition: all 1.2s;
 }
-.portfolio:hover{
-    transform: scale(1.1);
-}
+
 .portfolio h2, p{
     color: #fff;
 }
@@ -311,6 +308,10 @@ body{
 }
 .portfolio img{
     height: 400px;
+    transition: all 1.2s;
+}
+.portfolio img:hover{
+    transform: scale(1.1);
 }
 .iconinfo{
     display: flex;
