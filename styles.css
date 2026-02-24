@@ -16,7 +16,7 @@ body{
     scroll-behavior: smooth;
 }
 #home{
-    height: 130vh;
+    height: 110vh;
 }
 .navbar{
     position: sticky;
