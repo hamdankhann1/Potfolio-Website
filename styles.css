@@ -550,4 +550,27 @@ footer{
     #home{
         padding: 0;
     }
+    .cont-form{
+        padding: 0;
+    }
+    #name{
+        font-size: 12px;
+    }
+    .cont-form form{
+        width: 300px;
+    }
+    .cont-form textarea{
+        width: 220px;
+        height: 70px;
+    }
+    .cont-form{
+        border: 4px solid white;
+        border-radius: 70px;
+    }
+    #sub-btn{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 200px;
+        
+    }
 }
