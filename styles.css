@@ -487,8 +487,9 @@ footer{
     justify-content: center;
 }
 @media screen and (max-width:600px){
-    .img{
-        display: none;
+    .img img{
+        height: 300px;
+        width: inherit;
     }
     #pro1{
         height: 200px;
@@ -540,5 +541,13 @@ footer{
     color: #fff;
     font-size: 30px;
     font-weight: 500;
-}
+    }
+    .intro-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #home{
+        padding-top: 2px;
+    }
 }
