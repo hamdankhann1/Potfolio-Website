@@ -548,6 +548,6 @@ footer{
         justify-content: center;
     }
     #home{
-        padding-top: 2px;
+        padding: 0;
     }
 }
